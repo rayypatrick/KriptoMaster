@@ -10,24 +10,29 @@ __Cara Menjalankan Program__
 *Persiapan*
 1. Pastikan Anda telah menginstal Python 3 di sistem Anda. Jika belum, Anda bisa mengunduh dan menginstalnya dari python.org.
 2. Clone repository ini ke direktori lokal Anda:
-   ```bash git clone https://github.com/username/repository-name.git ```
-3. Masuk ke folder program:
-   ```bash cd QuizKriptografi ```
+   ```bash
+   git clone https://github.com/username/repository-name.git
+   ```
+4. Masuk ke folder program:
+   ```bash
+   cd QuizKriptografi
+   ```
 
 *Instalasi Dependensi*
 Program ini membutuhkan pustaka numpy untuk menjalankan Hill Cipher. Untuk menginstal numpy, jalankan perintah berikut di terminal atau command prompt : 
 
+```bash
 pip install numpy
-
+```
 *Menjalankan Program*
 Setelah dependensi terinstal, Anda bisa menjalankan program dengan perintah berikut:
-
+```bash
 python main.py
-
+```
 atau jika menggunakan python 3 :
-
+```bash
 python3 main.py
-
+```
 Ini akan membuka antarmuka GUI di mana Anda dapat memasukkan pesan, kunci, dan memilih metode enkripsi/dekripsi.
 
 *Menggunakan Program*
